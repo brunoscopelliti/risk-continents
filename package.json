@@ -1,0 +1,38 @@
+{
+  "name": "risk-continents",
+  "version": "0.1.0",
+  "description": "Determines which continents a player controls.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js tests",
+    "test": "npm run lint && jest",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoscopelliti/risk-continents.git"
+  },
+  "keywords": [
+    "risk",
+    "risk continents",
+    "risk checker",
+    "continents",
+    "risiko",
+    "risiko continents"
+  ],
+  "author": "Bruno Scopelliti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunoscopelliti/risk-continents/issues"
+  },
+  "homepage": "https://github.com/brunoscopelliti/risk-continents#readme",
+  "devDependencies": {
+    "eslint": "5.14.1",
+    "eslint-config-bruno": "2.0.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-node": "8.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-standard": "4.0.0",
+    "jest": "24.1.0"
+  }
+}
